@@ -39,3 +39,11 @@ If all have same importance:
 #### #3 Priority: SOURCE ORDER
 
 * If all have same importance and same specificity, the last declaration overrides all the other declarations.
+
+### About Inheritance
+
+* Inheritance passes the values for some specific properties from parents to childeren
+* Properties related to text are inherited: `font-family`,`font-size`,`color` etc.
+* The computed value of a property is what gets inherited, not the declared value
+* The `inherit` keyword forces inheritance on a certain property
+* The `initial` keyword resets a property to its initial value.
