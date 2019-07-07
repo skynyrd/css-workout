@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; /* this makes box-sizing inheritable (better practice), so we're only setting it in body */
+}
+
+html {
+    // This defines what 1 rem is.
+    font-size: 62.5%; /* root font size = 16px (Browser default) * 0.625 = 10px */
+}
+
+body {
+    box-sizing: border-box;
+}
